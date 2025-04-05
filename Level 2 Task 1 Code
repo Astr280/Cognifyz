@@ -1,0 +1,46 @@
+Level 2 Task 1 code 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="columns is-centered">
+        <div class="column is-4">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="https://images.unsplash.com/photo-1600585154360-1c1c1c1c1c1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNhcmQlMjBpbWFnZXxlbnwwfHx8fDE2OTI0MjY0MjM&ixlib=rb-4.0.3&q=80&w=400" alt="Modern Design">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Innovative Design</p>
+                            <p class="subtitle is-6">Elevate Your Experience</p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        Discover how our latest design solutions can transform your projects. Join us in creating a sustainable future through innovative web design.
+                        <br>
+                        <time datetime="2025-04-05">April 5, 2025</time>
+                    </div>
+                    <div class="buttons">
+                        <button class="button is-link">Learn More</button>
+                        <button class="button is-primary">Reserve Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
