@@ -1,0 +1,33 @@
+Level 1 Task 2 Calculator CODE 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <script>
+        function addNumbers() {
+            // Get the values from the input fields
+            const num1 = parseFloat(document.getElementById('number1').value);
+            const num2 = parseFloat(document.getElementById('number2').value);
+            
+            // Calculate the sum
+            const sum = num1 + num2;
+            
+            // Display the result
+            document.getElementById('result').innerText = "Result: " + sum;
+        }
+    </script>
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+    <p>Enter two numbers to add:</p>
+    
+    <input type="number" id="number1" placeholder="First Number" required>
+    <input type="number" id="number2" placeholder="Second Number" required>
+    <button onclick="addNumbers()">Add</button>
+    
+    <h2 id="result">Result: </h2>
+</body>
+</html>
