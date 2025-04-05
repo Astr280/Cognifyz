@@ -1,0 +1,49 @@
+Level 1 Task 2 Button Code 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changing Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        #colorButton {
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <button id="colorButton">Click Me!</button>
+
+    <script>
+        // Array of colors to choose from
+        const colors = ['#FF5733', '#33FF57', '#3357FF', '#F3FF33', '#FF33A1'];
+
+        // Get the button element
+        const button = document.getElementById('colorButton');
+
+        // Add click event listener to the button
+        button.addEventListener('click', function() {
+            // Generate a random index to select a color
+            const randomIndex = Math.floor(Math.random() * colors.length);
+            // Change the button's background color
+            button.style.backgroundColor = colors[randomIndex];
+        });
+    </script>
+</body>
+</html>
