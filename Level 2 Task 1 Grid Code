@@ -1,0 +1,84 @@
+Level 2 Task 1 Grid Code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Layout with Scroll Animation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+    <style>
+        .card {
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="text-center my-4">Responsive Grid Layout with Scroll Animation</h1>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Column 1</h5>
+                    <p class="card-text">This is some text within a card in the first column.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Column 2</h5>
+                    <p class="card-text">This is some text within a card in the second column.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Column 3</h5>
+                    <p class="card-text">This is some text within a card in the third column.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Column 4</h5>
+                    <p class="card-text">This is some text within a card in the fourth column.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Column 5</h5>
+                    <p class="card-text">This is some text within a card in the fifth column.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Column 6</h5>
+                    <p class="card-text">This is some text within a card in the sixth column.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
